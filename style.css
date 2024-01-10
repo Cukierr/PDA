@@ -271,9 +271,7 @@ h2{
     border: none;
     top: -692px;
     left: 829px;
-}
-#wlacznik:hover{
-    cursor:pointer;
+    cursor: pointer;
 }
 #przyciemnienie{
     z-index: 10;
