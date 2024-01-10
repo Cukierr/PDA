@@ -1,0 +1,302 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#pda{
+    transform: scale(1.2);
+}
+#pda, #pda img{
+    width: 900px;
+    height: 508px;
+}
+#pda img{
+    position:relative;
+}
+main{
+    position:relative;
+    left: 93px;
+    top:-452px;
+    width: 689px;
+    height: 338px;
+    background-color: #121416;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+#historia{
+    display: none;
+}
+#frakcje{
+    display: none;
+}
+#opis{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    padding: 0 10%;
+}
+#opis p{
+    font-size: 1.3em;
+}
+nav{
+    top:-446px;
+    left: 93px;
+    position: relative;
+    background-color: #2e2f38;
+    height: 23px;
+    width: 534px;
+    padding-top: 3px;
+}
+aside{
+    top:-471px;
+    left: 633px;
+    position: relative;
+    background-color: #2e2f38;
+    height: 23px;
+    width: 138px;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 1.1em;
+    color: whitesmoke;
+}
+header{
+    width: 80%;
+    height: 30px;
+    background-color: #2e2f38;
+    color: whitesmoke;
+    padding: 5px 10% 10px 10%;
+}
+header h1{
+    margin: 0;
+    font-weight: 500;
+}
+ul{
+    list-style-type: none;
+}
+#menu{
+    margin: 0;
+    color: #797a7e;
+    padding-left: 25px;
+}
+#menu li{
+    display: inline;
+    position: relative;
+    font-size: 1.2em;
+    z-index: 4;
+}
+li span:hover{
+    cursor: pointer;
+}
+#linkhome{
+    color: #c4a358;
+}
+#drugi{
+    left: -4px;
+}
+#trzeci{
+    left: -8px;
+}
+#menu li::before{
+    content: url(ikonaDoLinku.png);
+    margin-right: 5px;
+    margin-left: 0;
+}
+#listafrakcji{
+    position: relative;
+    z-index: 4;
+    color: #329c3a;
+    left: 4px;
+    top:-270px;
+    width: 30%;
+    height: 60%;
+    position: relative;
+}
+#listafrakcji li{
+    padding: 0.5px 0 0.5px 15px;
+    width: 199px;
+}
+#listafrakcji li:hover{
+    cursor: pointer;
+}
+#frakcje img, #home img{
+    width: 92%;
+    height: 92%;
+    position: relative;
+    top: 3%;
+    left: 5%;
+}
+#home img{
+    width: 92%;
+    height: 92%;
+    position: relative;
+    top: 0%;
+    left: 4%;
+}
+#home section{
+    width: 82%;
+    height: 70%;
+    position: relative;
+    z-index: 4;
+    top: -310px;
+    left: -1%;
+}
+#home span{
+    font-size: 1.7em;
+    position: relative;
+    top: -296px;
+    font-weight: 500;
+    left: 9%;
+    z-index: 4;
+}
+#xd img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}
+#xd{
+    width: 84%;
+    height: 94%;
+    position: relative;
+    top: 0%;
+    left: 8%;
+    z-index: 5;
+    overflow: hidden;
+}
+#slider{
+    position: relative;
+    width: 499.5%;
+    height: 100%;
+    top: -101%;
+    left: -0.1%;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    transition: 500ms;
+}
+#slider section{
+    background-image: url(sliderTlo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 101%;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    z-index: 4;
+}
+#slider section span{
+    position: relative;
+    z-index: 6;
+    top: 17px;
+    left: 35px;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+#slider section p{
+    position: relative;
+    z-index: 6;
+    width: 88%;
+    top: 17px;
+    left: 35px;
+}
+#historia button{
+    width: 25px;
+    height: 80px;
+    background-color: #3b3d49;
+    position: relative;
+    z-index: 4;
+    top: -190px;
+    border:none;
+}
+#historia button img{
+    height: 12px;
+    width: 30px;
+    position: relative;
+}
+#lewo{
+    left: 7px;
+}
+#lewo img{
+    transform: rotate(-90deg);
+    left: -9px;
+}
+#prawo{
+    left: 628px;
+}
+#prawo img{
+    transform: rotate(90deg);
+    left: -7.5px;
+}
+#tytul{
+    position: relative;
+    z-index: 4;
+    top: -275px;
+    left: -580px;
+}
+#frakcje section{
+    width: 44%;
+    height: 70%;
+    position: relative;
+    z-index: 4;
+    top: -510px;
+    left: 320px;
+    display: none;
+}
+#frakcje section img{
+    width:fit-content ;
+    height: 15%;
+    float: left;
+}
+h2{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+#frakcje section p{
+    clear: both;
+    margin-left:18px;
+}
+#wlacznik{
+    width: 29px;
+    height: 55px;
+    background-color: transparent;
+    position: relative;
+    z-index: 12;
+    border: none;
+    top: -692px;
+    left: 829px;
+}
+#przyciemnienie{
+    z-index: 10;
+    background-color: #161616;
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top:10%;
+    transition: 100ms;
+}
+#obudowa{
+    z-index:11 ;
+}
+@media(max-width: 1150px){
+    #pda{
+        transform: scale(1);
+    }
+}
+@media(max-width: 900px){
+    #pda{
+        transform: scale(0.8);
+    }
+}
+@media(max-width: 720px){
+    #pda{
+        transform: scale(0.7);
+    }
+}
