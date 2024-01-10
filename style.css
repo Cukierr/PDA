@@ -271,6 +271,7 @@ h2{
     border: none;
     top: -692px;
     left: 829px;
+    cursor:pointer;
 }
 #przyciemnienie{
     z-index: 10;
