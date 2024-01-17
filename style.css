@@ -28,10 +28,7 @@ main{
     padding-top: 20px;
     color: whitesmoke;
 }
-#historia{
-    display: none;
-}
-#frakcje{
+#historia, #frakcje, #mapa{
     display: none;
 }
 #opis{
@@ -101,6 +98,9 @@ li span:hover{
 #trzeci{
     left: -8px;
 }
+#czwarty{
+    left: -12px;
+}
 #menu li::before{
     content: url(ikonaDoLinku.png);
     margin-right: 5px;
@@ -156,10 +156,9 @@ li span:hover{
 #xd img{
     width: 100%;
     height: 100%;
-    position: relative;
     z-index: 5;
 }
-#xd{
+#xd, #xd2{
     width: 84%;
     height: 94%;
     position: relative;
@@ -167,6 +166,161 @@ li span:hover{
     left: 8%;
     z-index: 5;
     overflow: hidden;
+}
+#xd2 #ramka{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 6 ;
+}
+#xd2 #mapka{
+    position: relative;
+    z-index: 5;
+    width: 4212px;
+    height: 10923px;
+    overflow: hidden;
+    scale: 0.1373;
+    top: -6217px;
+    left: -1816px;
+    background-image: url(mapa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#xd2 #mapka span{
+    color: whitesmoke;
+    font-size: 9em;
+    position: relative;
+    font-weight: 500;
+    transition: 100ms;
+    opacity: 0;
+}
+#kordon{
+    top:9300px;
+    left:1570px;
+}
+#bagna{
+    top:9500px;
+    left:100px;
+}
+#wysypisko{
+    top:7670px;
+    left:700px;
+}
+#agroprom{
+    top:7950px;
+    left:-1100px;
+}
+#mroczna{
+    top:7400px;
+    left:550px;
+}
+#dolina{
+    top:7400px;
+    left:2960px;
+}
+#bar{
+    top:6100px;
+    left:1300px;
+}
+#dzicz{
+    top:6100px;
+    left:600px;
+}
+#jantar{
+    top:6500px;
+    left:-580px;
+}
+#magazyny{
+    top:5200px;
+    left:200px;
+}
+#wojskowe{
+    top:5200px;
+    left:1725px;
+}
+#limansk{
+    top:3900px;
+    left:-480px;
+}
+#czerwony{
+    top:4100px;
+    left:-300px;
+}
+#las{
+    top:4100px;
+    left:1150px;
+}
+#radar{
+    top:3900px;
+    left:2250px;
+}
+#prypec{
+    top:2600px;
+    left:1750px;
+}
+#opuszczony{
+    top:2400px;
+    left:-600px;
+}
+#szpital{
+    top:2400px;
+    left:675px;
+}
+#elektrownia{
+    top:400px;
+    left:1100px;
+}
+#atomowa{
+    top:400px;
+    left:1725px;
+}
+#xd2 #przyciski{
+    position: fixed;
+    z-index: 6;
+    width: 75px;
+    height: 65px;
+    background-image: url(przyciskiMapy.png);
+    bottom: 115px;
+    right: 180px;
+    background-size: 100% 100%;
+}
+#xd2 #przyciski button{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    width: 21px;
+    height: 19px;
+}
+#polnoc{
+    left: 27px;
+}
+#poludnie{
+    top: 45px;
+    left: 2px;
+}
+#wschod{
+    left: 53px;
+    top:1px
+}
+#zachod{
+    left: -49px;
+    top: 22px;
+}
+#plus{
+    left: 28px;
+    top:-22px
+}
+#minus{
+    top:24px;
+    left: -49px;
+
+}
+#xd2 #przyciski #napis{
+    top:-45px;
+    left: 1px;
+}
+#xd2 #przyciski #skala{
+    left: 28px;
 }
 #slider{
     position: relative;
@@ -271,7 +425,6 @@ h2{
     border: none;
     top: -692px;
     left: 829px;
-    cursor: pointer;
 }
 #przyciemnienie{
     z-index: 10;
