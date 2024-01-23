@@ -159,13 +159,20 @@ li span:hover{
     z-index: 5;
 }
 #xd, #xd2{
-    width: 84%;
-    height: 94%;
     position: relative;
-    top: 0%;
     left: 8%;
     z-index: 5;
     overflow: hidden;
+}
+#xd{
+    width: 84%;
+    height: 94%;
+    top: 0%;
+}
+#xd2{
+    width: 84.1%;
+    height: 94.2%;
+    top: -0.2%;
 }
 #xd2 #ramka{
     width: 100%;
@@ -176,7 +183,7 @@ li span:hover{
 #xd2 #mapka{
     position: relative;
     z-index: 5;
-    width: 4212px;
+    width: 4211px;
     height: 10923px;
     overflow: hidden;
     scale: 0.1373;
@@ -280,7 +287,7 @@ li span:hover{
     width: 75px;
     height: 65px;
     background-image: url(przyciskiMapy.png);
-    bottom: 115px;
+    bottom: 120px;
     right: 180px;
     background-size: 100% 100%;
 }
